@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../../../images/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  margin: 20px 0;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 46px;
+
+  color: #ffffff;
+}
+.line {
+  width: 100%;
+  height: 2px;
+  background: white;
+}
+header {
+  position: fixed;
+  top: 0;
+  background: #040204dc;
+  z-index: 111;
+  left: 0;
+  right: 0;
+}
+.mintaqa {
+  margin-top: 130px;
+  .row {
+    align-items: center !important;
+    h2 {
+      text-align: end;
+
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 29px;
+      /* identical to box height */
+
+      color: #ffffff;
+    }
+  }
+}
+#select {
+  width: 40%;
+  background: transparent !important;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.ased {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  /* identical to box height */
+
+  color: #ffffff;
+  span {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height */
+
+    color: #ffc700;
+  }
+}
+#wdsa {
+  margin-top: 70px;
+}
+.timer {
+  i {
+    color: white;
+    font-size: 25px;
+  }
+}
+.timer-text {
+  h4 {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height */
+
+    color: #ffc700;
+  }
+  h5 {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+}
+#card {
+  margin-top: 40px;
+}
+#cards {
+  background: rgba(255, 255, 255, 0.236);
+  margin-top: 20px;
+  transition: all 0.5s ease;
+  &:hover {
+    box-shadow: 4px 4px 40px 31px rgba(34, 60, 80, 0.2);
+    img {
+      transform: scale(0.95);
+    }
+  }
+  h4 {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+
+    color: #ffc700;
+  }
+  h3 {
+    font-family: "Jost";
+    font-style: normal;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width:576px) {
+  #wdsa{
+    display: flex;
+    flex-direction: column;
+  }
+}
